@@ -1,0 +1,42 @@
+
+.portfolio .container{
+    position: relative !important;
+}
+
+.port-hover{
+   text-align: center;
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    background: rgb(29, 156, 236, .7);
+    display: none;
+    transition: 2s;
+}
+
+.port-hover ul{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 24%;
+}
+
+.port-hover ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.port-hover ul li a{
+
+}
+
+.port-hover ul li img{
+   
+}
+
+.port-inner:hover .port-hover{
+    display: block;
+   
+    
+}
